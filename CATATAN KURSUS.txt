@@ -1,0 +1,61 @@
+1. promt website 1
+
+posisikan kamu adalah seorang web developer, tugas kamu membuat website menggunakan HTML, CSS dan JS serta tailwind CSS + play cdn supaya tampilan website yang responsive. saya ingin membangun website toko online yang menjual produk segala jenis produk pertanian. saya ingin nuansa websitenya modern, stylish dan responsive serta nyaman digunakan oleh user. buatkan saya struktur folder project lengkap beserta kodenya. saya ingin website saya menggunakan 1 index.html terlebih dahulu. tambahkan button CTA di setiap section dan tambahkan flying button untuk chat ke WhatsApp. buatkan promt akurat supaya saya bisa menggunakannya ke beberapa gen AI lainnya
+
+perintah : promting buatkan jalam format JSON
+
+hasilnya:
+
+{
+  "role": "web_developer",
+  "project_name": "AgroShop",
+  "description": "Website toko online pertanian modern yang menjual berbagai produk pertanian dengan tampilan modern, stylish, dan responsif.",
+  "requirements": {
+    "tech_stack": ["HTML", "CSS", "JavaScript", "TailwindCSS (Play CDN)"],
+    "pages": ["index.html"],
+    "structure": {
+      "folders": [
+        "assets/images",
+        "assets/icons",
+        "css",
+        "js"
+      ],
+      "files": [
+        "index.html",
+        "css/style.css",
+        "js/main.js"
+      ]
+    },
+    "sections": [
+      "Navbar dengan menu navigasi responsif (mobile menu toggle)",
+      "Hero section dengan judul besar, deskripsi singkat, dan tombol CTA 'Belanja Sekarang'",
+      "Produk section berisi 3 kartu produk (gambar, nama, deskripsi, tombol CTA 'Pesan Sekarang')",
+      "Tentang section menjelaskan profil AgroShop dengan tombol CTA 'Hubungi Kami'",
+      "Kontak section berisi ajakan untuk menghubungi via WhatsApp",
+      "Footer dengan hak cipta",
+      "Floating WhatsApp button di kanan bawah"
+    ],
+    "style": {
+      "theme": "Modern, stylish, green tones (nuansa pertanian modern)",
+      "font": "Inter, sans-serif",
+      "layout": "Responsive grid dan flex",
+      "animation": "Hover transitions halus",
+      "scroll_behavior": "smooth"
+    },
+    "features": {
+      "cta_buttons": "Setiap section memiliki tombol CTA yang mengarah ke kontak atau WhatsApp",
+      "floating_button": "Tombol WhatsApp mengambang dengan ikon SVG",
+      "responsive": true
+    }
+  },
+  "output_expectation": {
+    "deliverables": [
+      "Kode HTML lengkap di file index.html",
+      "File CSS eksternal untuk styling tambahan",
+      "File JS eksternal untuk interaksi menu mobile",
+      "Struktur folder project lengkap"
+    ],
+    "goal": "Website siap pakai dan dapat dikembangkan menjadi e-commerce penuh di tahap berikutnya."
+  },
+  "tone": "professional, modern, user-friendly"
+}
